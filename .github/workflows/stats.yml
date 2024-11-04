@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 15 */7 * *' # Once a week
+    - cron: '0 15 */14 * *' # Once every two weeks
   push:
     branches:
       - master
